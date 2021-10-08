@@ -1,7 +1,23 @@
+body {
+    background-color: darksalmon;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     color:lightseagreen
     
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+    text-decoration: underline;
 }
