@@ -16,7 +16,17 @@ h1 {
     width: 50%;
     height: auto;
 }
-
+.block{
+    display:block;
+    margin:auto;
+    border-radius:25px;
+    width:min(70%, 500px);
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+.recipe {
+    padding: 5px;
+    font-size: 1.5rem;
+}
 a,
 p {
     text-align: center;
@@ -31,14 +41,3 @@ p {
     background-color: rgb(255, 255, 255);
 }
 
-.block{
-    display:block;
-    margin:auto;
-    border-radius:25px;
-    width:min(70%, 500px);
-    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.479);
-}
-.recipe {
-    padding: 5px;
-    font-size: 1.5rem;
-}
