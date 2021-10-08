@@ -17,7 +17,21 @@ h1 {
     height: auto;
 }
 
-a {
+a,
+p {
     text-align: center;
-    text-decoration: underline;
+}
+
+#contents {
+    margin-top: 2rem;
+    height: 300px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 25px
+    background-color: rgb(255, 255, 255);
+}
+
+.recipe {
+    padding: 5px;
+    font-size: 1.5rem;
 }
